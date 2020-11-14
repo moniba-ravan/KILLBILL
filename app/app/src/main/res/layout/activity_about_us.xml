@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feature"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#a9c6af"
+
+    tools:context="com.example.mehraneh.KillBill.FeatureActivity">
+
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="300dp"
+        android:layout_centerVertical="true"
+        android:layout_height="310dp"
+        android:layout_alignParentTop="true"
+        android:paddingRight="7dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#c9d2d3"
+        android:text="@string/aboutUs"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/aboutus"
+        android:layout_marginTop="30dp"
+        android:background="#568f65"
+        android:textSize="15sp"
+        android:text="بازگشت"
+        android:layout_centerVertical="true"
+        />
+
+
+
+
+</RelativeLayout>

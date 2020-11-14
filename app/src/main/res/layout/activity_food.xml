@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehraneh.KillBill.FoodActivity"
+    android:orientation="vertical"
+    android:background="@mipmap/images"
+
+    >
+     <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                style="@style/ComponentFonts"
+                android:layout_height="50dp"
+                android:text="میوه و سبزیجات"
+
+
+
+                />
+
+         <EditText
+             android:id="@+id/fruit"
+             android:layout_width="150dp"
+             android:layout_height="50dp"
+             android:layout_marginTop="10dp"
+             android:hint="تومان"
+             android:inputType="number" />
+
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                style="@style/ComponentFonts"
+                android:layout_height="50dp"
+
+                android:textAlignment="gravity"
+                android:text=" پروتئینه"
+
+
+
+                />
+
+            <EditText
+                android:id="@+id/meat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="تومان"
+                android:inputType="number" />
+
+        </RelativeLayout>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                style="@style/ComponentFonts"
+                android:layout_height="50dp"
+                android:text="سوپرمارکت"
+
+
+
+                />
+
+            <EditText
+                android:id="@+id/supermarket"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="تومان"
+                android:inputType="number" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            style="@style/ComponentFonts"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="نان و غلات"
+            android:textAlignment="gravity"
+
+
+            />
+
+        <EditText
+            android:id="@+id/bread"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="100dp">
+
+    <Button
+        android:id="@+id/submitfood"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_centerVertical="true"
+        android:background="#1ea696"
+        android:text="ثبت" />
+
+
+</RelativeLayout>
+
+</LinearLayout>

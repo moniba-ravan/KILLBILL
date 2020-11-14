@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehraneh.KillBill.EntertainmentActivity"
+    android:orientation="vertical"
+    android:background="@mipmap/green2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            style="@style/ComponentFonts"
+            android:layout_height="50dp"
+            android:text="سینما و تئاترو کنسرت "
+            android:textColor="#123897"
+
+
+            />
+
+        <EditText
+            android:id="@+id/cinema"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            style="@style/ComponentFonts"
+            android:layout_height="50dp"
+            android:text="رستوران یا کافی شاپ "
+            android:textColor="#123897"
+
+
+            />
+
+        <EditText
+            android:id="@+id/restaurant"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            style="@style/ComponentFonts"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="پارک یا گردش "
+            android:textColor="#123897"
+
+
+            />
+
+        <EditText
+            android:id="@+id/park"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/submitent"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_centerVertical="true"
+            android:background="#b368c7d2"
+            android:text="ثبت" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

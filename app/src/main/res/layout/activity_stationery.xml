@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehraneh.KillBill.stationeryActivity"
+    android:background="@mipmap/greeen"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            style="@style/ComponentFonts"
+            android:layout_height="50dp"
+            android:text="کتاب "
+            android:textColor="#123897"
+
+
+            />
+
+        <EditText
+            android:id="@+id/book"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+
+            android:inputType="number"
+            android:singleLine="false" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            style="@style/ComponentFonts"
+            android:layout_height="50dp"
+            android:text="لوازم التحریر "
+            android:textColor="#123897"
+
+
+            />
+
+        <EditText
+            android:id="@+id/stationery"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/submitsta"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_centerVertical="true"
+            android:background="#cc74d457"
+            android:text="ثبت" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

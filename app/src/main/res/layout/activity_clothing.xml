@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehraneh.KillBill.ClothingActivity"
+    android:background="@mipmap/purple"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            style="@style/ComponentFonts"
+            android:layout_height="50dp"
+            android:text="لباس"
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/clothes"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            style="@style/ComponentFonts"
+            android:layout_height="50dp"
+            android:text="کیف و کفش"
+
+
+
+
+            />
+
+        <EditText
+
+            android:id="@+id/shoes"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            style="@style/ComponentFonts"
+            android:layout_height="50dp"
+            android:text="اکسسوری"
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/accecories"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:hint="تومان"
+            android:inputType="number" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_centerVertical="true"
+            android:background="#7a31b6"
+            android:text="ثبت" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
